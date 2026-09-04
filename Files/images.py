@@ -1,8 +1,7 @@
 import cv2
 
 # Load the image
-image = cv2.imread("../Images/image1.jpg")
-
+image = cv2.imread("../Images/car.jpg")
 # Check if the image was loaded successfully
 if image is None:
     print("Error: Could not load the image.")
